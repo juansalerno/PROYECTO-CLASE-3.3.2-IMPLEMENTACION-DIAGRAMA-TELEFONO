@@ -1,0 +1,24 @@
+"use strict";
+exports.__esModule = true;
+var camara_1 = require("./camara");
+var telefonoConCamara_1 = require("./telefonoConCamara");
+var miCamara = new camara_1["default"]();
+var miTelefonoConCamara = new telefonoConCamara_1["default"](miCamara);
+// prueba de metodos:
+miTelefonoConCamara.imprimirEstadoGlobal();
+miTelefonoConCamara.prenderApagarTelefono();
+miTelefonoConCamara.sacarFoto();
+miTelefonoConCamara.sacarFoto();
+miTelefonoConCamara.hacerLLamada();
+miTelefonoConCamara.hacerLLamada();
+miTelefonoConCamara.mandarMensaje('hola como estas', 2494526574);
+miTelefonoConCamara.prenderApagarLinterna();
+miTelefonoConCamara.cargarBateria();
+miTelefonoConCamara.usarBateria();
+miTelefonoConCamara.getEstadoBateria();
+miTelefonoConCamara.prenderApagarLinterna();
+miTelefonoConCamara.eliminarFoto();
+miTelefonoConCamara.getFotosActuales();
+miTelefonoConCamara.getLlamadasRealizadas();
+miTelefonoConCamara.getMensajesRealizados();
+miTelefonoConCamara.imprimirEstadoGlobal();

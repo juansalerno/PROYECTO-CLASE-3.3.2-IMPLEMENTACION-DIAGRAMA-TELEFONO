@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-clase-3.3.2-implementacion-diagrama-telefono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prueba": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Salerno",
+  "license": "ISC"
+}
